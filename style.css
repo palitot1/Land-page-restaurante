@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 202, 193);
+}
+
+/*navegação*/
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+/*Fim-navegação*/
+
+/*cabeçalho*/
+header{
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+    
+}
+/*fim-cabeçalho*/
+
+section{
+    width: 600px;
+    margin-left: 25%;
+    background-color: rgb(131, 117, 99);
+    color: rgb(240, 237, 237);
+}
+
+section img{
+    width: 300px;
+    margin-top: 10px;
+}
+
+#resume{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.img-alimentos{
+    text-align: center;
+}
+
+.resume-comida{
+    text-align: center;
+    margin: 30px;
+    align-items: center;
+    font-size: 18px;
+    clear: both;
+}
+
+footer {
+    background-color: #333333; /* Fundo escuro */
+    color: #f9f9f9;           /* Texto claro */
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around; /* Distribui os itens */
+    flex-wrap: wrap;              /* Ajusta para telas menores */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    color: #ffd700; /* Destaque para os títulos (amarelo ouro) */
+  }
+  
+  .footer-section a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #ffd700; /* Amarelo ouro ao passar o mouse */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #555; /* Linha separadora */
+    padding-top: 10px;
+  }
+
+
